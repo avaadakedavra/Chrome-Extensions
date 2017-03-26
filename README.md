@@ -12,14 +12,6 @@ Then visit "Chrome://extensions" and click on "Load unpacked extension" and sele
 Below is a detailed description of the functionality of each extension:
 
 
-1) Send Email
-            - Send email is a simple google extension that uses either gmail or your default mail handler to send an email consisting of your current page to whomever you desire. 
-            - If in a broswer session, it sends the search query as the subject with the URL as the mail content. 
-            - A requirement is that the user is already logged in to whatever email client they wish to use. 
-      
- 2) YouTube-mp3      
+1) YouTube-mp3      
             - YouTube-mp3 displays a button below any youtube video, on clicking which, user will be re-directed to "http://www.flvto.biz" from where the video will be converted to an mp3 file and downloaded on click. 
-      
-  3) Calculator
-            - Calculator is a generic calculator that operates from within the chrome browser.
       
