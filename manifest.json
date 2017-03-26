@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube-mp3",
+  "version": "2.0.0",
+  "description": "Free YouTube to MP3 Converter allows you to save music in Mp3 just in a 1 click",
+  "permissions": [
+    "tabs",
+    "http://www.flvto.biz/*",
+    "http://www.youtube.com/*",
+    "https://www.youtube.com/*"
+  ],
+  "icons": {
+    "48" : "icon.png",
+    "128" : "icon.png"
+  },
+  "content_scripts" : [
+    {
+      "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+      "js": ["btnInjecter.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
